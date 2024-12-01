@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="TestSuiteName" verbose="1">
+    <listeners>
+        <listener class-name="common.TestListener"></listener>
+    </listeners>
+    <test name="Suite1">
+        <classes>
+            <class name="testcases.TestNhap.TestNhapDuLieu"></class>
+<!--                        <class name="testcases.DangNhap.DangNhapWebBanHang"></class>-->
+            <!--            <class name="testcases.TimKiem.TimKiemWebBanHang"></class>-->
+            <!--            <class name="testcases.GioHang.GioHangWebBanHang"></class>-->
+            <!--            <class name="testcases.DatHang.DatHangWebBanHang"></class>-->
+        </classes>
+    </test>
+</suite>
